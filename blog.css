@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#ust {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #17A082;
+}
+
+#menu {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#menuyeri {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menuyeri li {
+    float: left;
+}
+
+#menuyeri li a {
+    display: block;
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    margin-left: 5px;
+    line-height: 50px;
+    color: #C6FEFB;
+    text-align: center;
+}
+
+#menuyeri li a:hover {
+    background-color: #1BBC9B;
+}
+
+.banner {
+    background-image: url(img/banner.jpg);
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.baslik {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.yazi {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.icerik {
+    width: 100%;
+    height: 1750px;
+    background-color: #1e1f23;
+}
+
+#blog {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.orta {
+    width: 100%;
+    height: 90px;
+    background-color: #121315;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.orta span {
+    line-height: 90px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sol {
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: white;
+    padding: 70px;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.sag {
+    background-image: url(img/pic01.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+
+.sil {
+    clear: both;
+}
+
+.sol2 {
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-image: url(img/pic03.jpg);
+    background-size: cover;
+}
+
+.sag2 {
+    width: 50%;
+    height: 400px;
+    float: right;
+    padding: 70px;
+    background-color: white;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.sol3 {
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: white;
+    padding: 70px;
+    text-align: justify;
+    text-align: justify;
+    padding-top: 40px;
+}
+
+.sag3 {
+    background-image: url(img/pic05.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+
+.sol4 {
+    background-image: url(img/pic07.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.sag4 {
+    width: 50%;
+    height: 400px;
+    float: left;
+    background-color: white;
+    padding: 70px;
+    padding-top: 40px;
+    text-align: justify;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+}
+
+#ensol,
+#orta,
+#ensag {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    padding: 60px;
+    line-height: 25px;
+    background-color: #1F1B1A;
+    color: #A1B1B0;
+}
+
+.cizgi {
+    border-bottom: 1px solid #2D2928;
+    line-height: 40px;
+}
+
+h4 {
+    color: white;
+}
+
+.linkler {
+    text-decoration: none;
+    color: #A1B1B0;
+}
+
+#btn {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: #17A082;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+#new {
+    width: 100px;
+    height: 30px;
+    background-color: #17A082;
+    font-size: 16px;
+    text-align: center;
+}
+
+#new a {
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}

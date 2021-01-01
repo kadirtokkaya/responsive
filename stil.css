@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#ust {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #17A082;
+}
+
+#menu {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#menuyeri {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menuyeri li {
+    float: left;
+}
+
+#menuyeri li a {
+    display: block;
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    margin-left: 5px;
+    line-height: 50px;
+    color: #C6FEFB;
+    text-align: center;
+}
+
+#menuyeri li a:hover {
+    background-color: #1BBC9B;
+}
+
+.banner {
+    background-image: url(img/banner.jpg);
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+    text-align: center;
+    border-bottom: 10px solid #343331;
+}
+
+.baslik {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.yazi {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+#sol {
+    float: left;
+    width: 60%;
+    height: 400px;
+    padding: 50px;
+}
+
+#sag {
+    float: right;
+    width: 40%;
+    height: 400px;
+    padding: 50px;
+}
+
+h1 {
+    color: #129992;
+    margin-bottom: 0px;
+}
+
+span {
+    color: #847A71;
+    letter-spacing: 2px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.sil {
+    clear: both;
+}
+
+footer {
+    width: 100%;
+}
+
+#ensol,
+#orta,
+#ensag {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    padding: 60px;
+    line-height: 25px;
+    background-color: #1F1B1A;
+    color: #A1B1B0;
+}
+
+.cizgi {
+    border-bottom: 1px solid #2D2928;
+    line-height: 40px;
+}
+
+h4 {
+    color: white;
+}
+
+.linkler {
+    text-decoration: none;
+    color: #A1B1B0;
+}
+
+#btn {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: #17A082;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
